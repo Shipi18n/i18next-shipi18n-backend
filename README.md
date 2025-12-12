@@ -46,7 +46,7 @@ i18next
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
 | `apiKey` | `string` | - | Your Shipi18n API key (required for API features) |
-| `apiUrl` | `string` | `https://api.shipi18n.com` | API base URL |
+| `apiUrl` | `string` | `https://ydjkwckq3f.execute-api.us-east-1.amazonaws.com` | API base URL |
 | `sourceLanguage` | `string` | `en` | Source language code for translations |
 | `loadPath` | `string \| function` | `/locales/{{lng}}/{{ns}}.json` | Path to load local translations |
 | `timeout` | `number` | `10000` | Request timeout in milliseconds |

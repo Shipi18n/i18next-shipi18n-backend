@@ -32,7 +32,7 @@ export interface Shipi18nBackendOptions {
   /** Your Shipi18n API key (required for API features) */
   apiKey?: string;
 
-  /** API base URL (default: https://api.shipi18n.com) */
+  /** API base URL (default: https://ydjkwckq3f.execute-api.us-east-1.amazonaws.com) */
   apiUrl?: string;
 
   /** Source language code for translations (default: 'en') */
@@ -80,7 +80,7 @@ interface CacheEntry {
 
 const defaultOptions: Shipi18nBackendOptions = {
   apiKey: '',
-  apiUrl: 'https://api.shipi18n.com',
+  apiUrl: 'https://ydjkwckq3f.execute-api.us-east-1.amazonaws.com',
   sourceLanguage: 'en',
   loadPath: '/locales/{{lng}}/{{ns}}.json',
   timeout: 10000,

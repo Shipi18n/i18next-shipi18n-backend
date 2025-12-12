@@ -69,7 +69,7 @@ describe('Shipi18nBackend', () => {
 
       const options = backend.getOptions();
       expect(options.apiKey).toBe('my-key');
-      expect(options.apiUrl).toBe('https://api.shipi18n.com');
+      expect(options.apiUrl).toBe('https://ydjkwckq3f.execute-api.us-east-1.amazonaws.com');
       expect(options.sourceLanguage).toBe('en');
       expect(options.timeout).toBe(10000);
       expect(options.cache).toBe(true);
@@ -293,7 +293,7 @@ describe('Shipi18nBackend', () => {
       await jest.advanceTimersByTimeAsync(1100);
 
       expect(mockFetch).toHaveBeenCalledWith(
-        'https://api.shipi18n.com/api/keys/missing',
+        'https://ydjkwckq3f.execute-api.us-east-1.amazonaws.com/api/keys/missing',
         expect.objectContaining({
           method: 'POST',
           body: expect.stringContaining('key1'),
