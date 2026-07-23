@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/i18next-shipi18n-backend.svg)](https://www.npmjs.com/package/i18next-shipi18n-backend)
 [![CI](https://github.com/Shipi18n/i18next-shipi18n-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/Shipi18n/i18next-shipi18n-backend/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
 i18next backend plugin for [Shipi18n](https://shipi18n.com) translation API. Load translations dynamically and save missing keys automatically.
@@ -238,7 +238,7 @@ const options: Shipi18nBackendOptions = {
 
 ## License
 
-MIT
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
 
 ---
 

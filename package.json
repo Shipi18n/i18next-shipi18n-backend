@@ -1,6 +1,6 @@
 {
   "name": "i18next-shipi18n-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "i18next backend plugin for Shipi18n translation API - load and save translations dynamically",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -13,7 +13,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "NOTICE"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
@@ -31,7 +32,7 @@
     "internationalization"
   ],
   "author": "Shipi18n",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Shipi18n/i18next-shipi18n-backend.git"
